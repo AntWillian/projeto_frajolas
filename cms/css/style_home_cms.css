@@ -1,0 +1,215 @@
+@font-face {
+     font-family: "Rockwell Condensed";
+     src: url('font/rockwell-bold-condensed.otf');
+}
+
+body{
+  padding: 0px;
+  margin: auto;
+}
+
+.principal{
+  width: 1200px;
+  min-height: 1000px;
+  height: auto;
+  border-radius: 50px;
+  background-color:#9a9ca0;
+  margin: auto;
+}
+
+.cabecalho{
+  width: 100%;
+  height: 250px;
+  border-radius: 50px 50px 0px  0px;
+  background-color:#000;
+}
+
+.title{
+  width: 900px;
+  height: 100%;
+  border-radius: 50px 0px 0px 0px;
+  float: left;
+
+
+
+}
+
+.title p{
+
+  font-size: 60px;
+  font-family: "Rockwell Condensed";
+  text-align: center;
+  padding-top: 60px;
+  margin: 0px;
+  color: #fff;
+}
+
+.logo{
+  width: 250px;
+  height: 100%;
+  float: left;
+}
+
+.logo img{
+  width: 100%;
+  height: 100%;
+}
+
+.menuNav{
+  width: 100%;
+  height: 210px;
+    background-color:#0f0f0f;
+}
+
+.menu_navegacao{
+  width: 970px;
+  height: 100%;
+  float: left;
+}
+
+.item_menu{
+  width: 240px;
+  height: 100%;
+
+  float: left;
+}
+
+.imagen{
+  width: 100%;
+  height: 170px;
+  border-radius: 100px;
+}
+
+.imagen img{
+  width: 90%;
+  height: 170px;
+  margin-left: 10px;
+  border-radius: 100px;
+
+}
+
+.legenda{
+  width: 100%;
+  height: 30px;
+  margin-top: -30px;
+}
+
+.legenda a{
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.legenda a:hover{
+  text-decoration: none;
+  color: #f99c48;
+
+}
+.legenda p{
+  font-size: 30px;
+  font-family: "Rockwell Condensed";
+  padding: 0px;
+  text-align: center;
+  color: #fff;
+}
+
+
+.user{
+  width: 230px;
+  height: 100%;
+  float: left;
+}
+
+.user p{
+  font-size: 30px;
+  font-family: "Rockwell Condensed";
+  padding: 0px;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+.botao{
+  width: 100px;
+  height: 50px;
+  font-family: arial;
+  font-size:14px;
+  font-weight:700;
+  text-transform: uppercase;
+  border:none;
+  padding:10px;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;
+  background:red;
+  color:#fff;
+  box-shadow:0 5px 0 #d20000;
+  margin-left: 120px;
+
+}
+
+
+.botao{
+  background:red;
+  color:#fff;
+  box-shadow:0 5px 0 #b00000;
+}
+.botao:hover{
+  background:#c10707;
+  box-shadow:0 5px 0 #b00000;
+}
+
+.botao:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
+}
+
+/*     conteudo_principal       */
+.conteudo_principal{
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  overflow: scroll;
+  background-color: #fff;
+}
+
+.div_conteudo_item{
+  width: 600px;
+  height: 220px;
+}
+.conteudo_item{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color:green;
+  margin-left: 30px;
+    margin-top: 50px;
+  float: left;
+}
+
+.titulo_item{
+  width: 100px;
+  height: 30px;
+  float: left;
+  margin-top: 150px;
+  margin-left: 20px;
+  font-family: "Rockwell Condensed";
+  font-size: 20px;
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  border-radius: 0px 0px 50px 50px;
+  background-color: #84090f;
+}
+footer p{
+  font-size: 30px;
+  font-family: "Rockwell Condensed";
+  padding-left: 450px;
+  padding-top: 30px;
+  margin: auto;
+  color: #fff;
+}

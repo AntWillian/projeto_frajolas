@@ -1,0 +1,307 @@
+#principal_pizza{
+      width: 1200px;
+      min-height: 900px;
+      height: auto;
+      margin: auto;
+      background-color: #fff;
+}
+
+
+/*############################## Menu outros produtos ##############################*/
+
+#menu_outros_produtos{
+  width: 300px;
+  min-height: 500px;
+  height: auto;
+  background-color: blue;
+  float: left;
+}
+
+.titulo_pizza h3{
+  color: #000;
+text-align: center;
+font-size: 50px;
+width: 100%;
+margin: auto;
+border-bottom: 2px dashed #000;
+
+}
+
+#confira_produtos{
+  width: 100%;
+  height:auto;
+  min-height: 200px;
+  overflow: hidden;
+  background-color: red;
+}
+
+
+#confira_produtos  ul {
+    font-family: cursive;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px;
+  }
+
+#confira_produtos  ul li {
+    position: relative;
+
+  }
+
+  #confira_produtos ul li a {
+    text-decoration: none;
+    color: #000;
+    width: auto;
+    line-height: 20px;
+    padding-left: 10px;
+  }
+
+  #confira_produtos ul li ul {
+  background-color: black;
+  width: 200px;
+  height: 100px;
+  }
+
+  #confira_produtos ul li ul:hover  {
+    display: block;
+  }
+
+/*############################## Conteudo ##############################*/
+
+#conteudo_pizza{
+  width: 900px;
+  min-height: 950px;
+  height: auto;
+  margin-left: 300px;
+
+
+}
+
+.titulo_pizza h1{
+  width: 100%;
+  height: 70px;
+
+}
+
+
+
+#dados_pizza{
+  width: 100%;
+  min-height: 300px;
+  height: auto;
+  margin-top: 50px;
+
+}
+
+#nome_pizza h2{
+  width: 100%;
+  height: 35px;
+  font-size: 35px;
+  border-bottom: 1px solid #000;
+  background-color: green;
+}
+
+.product_images{
+  width:380px;
+  height: 310px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#foto_pizza{
+  width: 290px;
+  height: 300px;
+  border-width: 1px;
+  border-color: #0055ff;
+  border-style: double;
+  border-radius: 10px 0 10px 0;
+  margin-bottom: 10px;
+  float: left;
+}
+
+.thumbs{
+  margin-left: 300px;
+  width: 55px;
+  height: 270px;
+  padding: 5px;
+}
+
+.thumbs img{
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+}
+
+.active{
+  border: solid 3px green;
+}
+
+
+.thumbs img:hover,
+.active{
+  border: solid 3px green;
+}
+
+#foto_pizza img{
+  width: 280px;
+  height: 290px;
+  padding: 5px;
+  border-radius: 10px 0 10px 0;
+  background: green;
+}
+
+#detalhes_pizza{
+  width: 550px;
+  height:auto;
+  min-height: 200px;
+  overflow: hidden;
+  border-width: 1px;
+  border-color: #0055ff;
+  border-style: double;
+  margin: auto;
+}
+
+.titulo_classificaco{
+  width: 50px;
+  font-size: 35px;
+  float: left;
+  margin-left: 50px;
+
+}
+
+.classificacao_pizza{
+  width: 100%;
+  height: 50px;
+  background-color: green;
+
+}
+
+.classificacao{
+  width: 150px;
+  height: 50px;
+
+  margin-left: 200px;
+    float: left;
+}
+
+.classificacao ul{
+  width: 150px;
+  height: 40px;
+  list-style: none;
+
+  margin: 0px;
+  padding: 5px;
+}
+
+.classificacao ul li{
+  width: 30px;
+  height: 50px;
+  float: left;
+
+}
+
+.classificacao ul li img{
+  width: 25px;
+  height: 40px;
+
+}
+
+.nota span{
+  width: 50px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 15px;
+  font-size: 42px;
+  float: left;
+}
+
+.descricao_pizza{
+  width: 100%;
+  height: 100px;
+
+}
+
+.titulo_descricao{
+  width: 100%;
+  height: 30px;
+  text-align: center;
+    border-top: 1px solid #000;
+}
+
+.titulo_descricao span{
+  font-size: 25px;
+  width: 100%;
+
+
+}
+
+.descricao{
+  width: 100%;
+  height: 100px;
+}
+
+.descricao p{
+  padding: 0px;
+  margin: 0px;
+  font-size: 20px;
+  font-size: justify;
+}
+.descricao_pizza1{
+  width: 100%;
+  height: 60px;
+  padding-bottom: 15px;
+
+}
+
+.titulo_descricao1{
+  width: 100%;
+  height: 30px;
+    text-align: center;
+    border-top: 1px solid #000;
+}
+
+.titulo_descricao1 span{
+  font-size: 25px;
+
+
+}
+
+
+
+.descricao1 p{
+  padding: 0px;
+  margin: 0px;
+  font-size: 30px;
+}
+
+.valor_preco_antigo_pizza{
+    color: #404040;
+  display: inline-block;
+  font-family: "NeoSans";
+  font-size: 15px;
+  padding: 0px;
+  margin: auto;
+}
+
+.valor_preco_antigo_pizza strong{
+  text-decoration: line-through;
+}
+
+.preco_promocao_pizza{
+  margin-top: 5px;
+  width:150px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.valor_preco_pizza{
+  display: block;
+  color: #b70f15;
+  font-family:"Rokwell Condensed";
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+
+}

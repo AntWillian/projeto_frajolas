@@ -1,0 +1,77 @@
+.principal_ondeEstamos{
+  width: 1200px;
+  height: auto;
+  min-height: 500px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+
+.conteudo_ondeestamos{
+  width: 1200px;
+  height: auto;
+  min-height: 500px;
+  overflow: hidden;
+}
+
+.titulo_ondeestamos{
+  width: 100%;
+  height: 100px;
+}
+
+.titulo_ondeestamos h1{
+  font-size: 70px;
+  width: 100%;
+}
+
+.texto{
+  width: 100%;
+  height: auto;
+  min-height: 10px;
+  overflow: hidden;
+}
+
+.texto p{
+  font-size: 25px;
+  line-height: 1.3;
+  font-family: sans-serif;
+  margin: 0 auto;
+  text-align:center;
+}
+
+
+
+.imagen_ondeestamos{
+  width: 1200px;
+  height: 500px;;
+  position: absolute;
+}
+
+.mapa{
+  width: 100%;
+  height: 450px;
+  margin-bottom: 50px;
+}
+
+.mapa_visualizar{
+  width: 100%;
+  height: 450px;
+
+
+}
+
+.endereco{
+  width: 100%;
+  height: auto;
+  min-height: 50px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.endereco p{
+  font-size: 20px;
+  font-family: "Rockwell Condensed";
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}

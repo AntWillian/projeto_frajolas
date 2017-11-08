@@ -1,0 +1,465 @@
+.abrir_menu{
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+
+
+
+#conteudo_curiosidades{
+  width: 1200px;
+  min-height: 1000px;
+  height: auto;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+
+.titulo_curiosidades{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.titulo_curiosidades h1{
+font-size: 50px;
+color: #000;
+width: 100%;
+border-bottom: 2px dashed #000;
+}
+
+.conteudo_principal_curiosidades{
+  width: 1100px;
+  min-height: 500px;
+  height: auto;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+}
+
+.imagen_titulo{
+  width: 100%;
+  height: 400px;
+
+}
+
+.imagen_titulo img{
+  width: 100%;
+  height: 400px;
+}
+
+
+.imagens_cabeçalho{
+
+	width:840px;  /*Largura*/
+	height:300px;	/*Altura*/
+
+
+
+}
+
+.Titulo_imagem_cabeçalho{
+
+	width:200px;  /*Largura*/
+	height:50px;	/*Altura*/
+
+	background-color:white;
+
+	position:absolute;
+
+	margin-top:-400px;
+
+	border-radius: 0px 100px 100px 0px ;
+
+		opacity:0.65;
+
+}
+
+.Titulo_imagem_cabeçalho:hover{
+
+	width:500px;  /*Largura*/
+	height:50px;	/*Altura*/
+
+	background-color:white;
+
+	position:absolute;
+
+	margin-top:-400px;
+
+	border-radius: 0px 100px 100px 0px ;
+
+	opacity:0.65;
+
+}
+
+
+
+.Titulo_principal_cabeçalho{
+  width:1100px;  /*Largura*/
+  height:50px;	/*Altura*/
+
+  margin-left: auto;
+  margin-right: auto;
+  background-color:black;
+  margin-top: -50px;
+  position:absolute;
+    opacity:0.65;
+}
+
+.Titulo_principal_anos{
+  margin: auto;
+  width: 200px;
+  height: 100%;
+}
+
+.Titulo_principal_anos h3{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.Titulo_principal_cabeçalho:hover{
+
+	margin-top:-300px;
+
+  width:1100px;  /*Largura*/
+  height:300px;	/*Altura*/
+
+  margin-left: auto;
+  margin-right: auto;
+  background-color:black;
+
+  position:absolute;
+    opacity:0.65;
+
+}
+
+.Titulo_principal_anos{
+
+  font-size: 50px;
+  color: white;
+  margin: auto;
+}
+
+.Titulo_principal_cabeçalho:hover>.Titulo_principal_anos{
+
+	font-size:100px;
+  width: 400px;
+  margin: auto;
+
+
+}
+
+.Titulo_principal_imagen{
+
+	width:200px;  /*Largura*/
+	height:50px;	/*Altura*/
+
+	font-size:30px;
+	text-align:center;
+
+	margin:0px;
+	padding:0px;
+
+}
+
+
+/* conteudo de detalhes dos anos  */
+
+
+.detalhes_anos{
+  width: 1100px;
+  min-height: 200px;
+  height: auto;
+  overflow: hidden;
+
+}
+
+/*############################# CARROSEL ################################*/
+#product_images{
+  width: 1100px;
+  height: 700px;
+  display: none;
+}
+
+.navegacao{
+  margin-top: 30px;
+  width: 980px;
+  height: 110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navegacao:hover >.navegar1 img{
+  display: block;
+}
+
+.navegar1{
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: auto;
+  text-align: center;
+  border-radius: 100px;
+  opacity:0.10;/* propriedade padrão - Fire fox e Chrome*/
+  filter: alpha(opacity=10);/*Internet explorer*/
+  -moz-opacity:0.1; /*suporte a browsers antigos como o Netscape*/
+  background-color: yellow;
+
+}
+
+.navegar1 a{
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 50px;
+
+}
+
+.navegar1 img{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: none;
+}
+
+.content {
+
+	width: 100%;
+	height: 110px;
+}
+
+
+.conteudo_thumbs{
+  width: 880px;
+  height: 110px;
+  float: left;
+}
+
+
+
+.carrossel{
+
+  float: left;
+  width: 1000px;
+  overflow: hidden;
+  height: 110px;
+}
+
+.carrossel ul{
+  list-style-type: none;
+  padding: 0px;
+}
+
+.carrossel ul li {
+	width: 100px;
+	height: 110px;
+	float: left;
+	margin: 0 5px;
+}
+
+.carrossel ul li img{
+	width: 90px;
+	height: 100px;
+}
+
+
+
+#foto_principal{
+  width: 1000px;
+  height: 500px;
+  margin-left: 50px;
+  border-width: 1px;
+  border-color: #0055ff;
+  border-style: double;
+  border-radius: 10px 0 10px 0;
+  margin-bottom: 10px;
+
+}
+
+#foto_principal img{
+  width: 990px;
+  height: 490px;
+  border-radius: 30px 0px 30px 0px;
+  padding: 5px;
+
+}
+
+.thumbs{
+  width: 600px;
+  height: 120px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.thumbs img{
+  width: 100px;
+  height: 100px;
+
+}
+
+.active{
+  border: solid 3px green;
+}
+
+
+.thumbs img:hover,
+.active{
+  border: solid 3px green;
+}
+
+#carrossel{
+  width: 500px;
+  background-color: blue;
+  margin: auto;
+}
+
+ ol{
+  list-style-type: none;
+}
+
+ ol li{
+  float: left;
+  margin-left: 5px;
+}
+
+.passar{
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin: auto;
+  margin-top: 30px;
+
+  text-align: center;
+  border-radius: 100px;
+  opacity:0.10;/* propriedade padrão - Fire fox e Chrome*/
+  filter: alpha(opacity=10);/*Internet explorer*/
+  -moz-opacity:0.1; /*suporte a browsers antigos como o Netscape*/
+
+}
+
+
+.passar a{
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 50px;
+
+}
+
+.passar img{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+
+/*############################# CONTINUACAO CONTEUDO ################################*/
+
+.detalhes_anos p{
+ font-size: 20px;
+ padding: 5px;
+}
+
+.lista_de_curiosidades{
+
+  width: 500px;
+  height: auto;
+  min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titulo_anos{
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.titulo_anos h2{
+  font-size: 30px;
+  margin: 0px;
+}
+
+
+.detalhes_curiosidades{
+  width: 100%;
+  height: auto;
+  min-height: 100px;
+  overflow: hidden;
+
+
+}
+
+/*########################## tela que abrira com mais detalhes ###########################################*/
+.abrir{
+  list-style: none;
+  width: 100%;
+  height: 325px;
+  display: none;
+}
+
+.detalhes_curiosidade ul li:hover>.abrir {
+  display: block;
+  width: 100%;
+  transition: 10s;
+}
+
+.video{
+  width: 490px;
+  height: 325px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video img{
+  width: 490px;
+  height: 325px;
+}
+
+
+
+
+/*########################## #################################### ###########################################*/
+
+.curiosidade{
+  width:100%;
+  height: 30px;
+  background-color: #910000;
+  border: 1px solid #000;
+  font-size: 25px;
+
+
+}
+
+.curiosidade p{
+margin: auto;
+width: 50px;
+color: #fff;
+}
+
+.detalhes_curiosidades{
+  width:100%;
+  min-height: 30px;
+  height: auto;
+  border: 1px solid #000;
+  margin: auto;
+}
+
+.detalhes_curiosidade ul{
+  list-style-type: none;
+  font-size: 15px;
+  text-align: center;
+  padding: 0px;
+}
+
+.detalhes_curiosidade ul li a {
+ text-decoration: none;
+ color: #000;
+ display: block;
+ width: 500px;
+ margin-bottom: 5px;
+
+}

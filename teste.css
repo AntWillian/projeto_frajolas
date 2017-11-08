@@ -1,0 +1,9 @@
+@font-face {
+     font-family: 'teste';
+     src: url('Rockwell Condensed Bold.TTF');
+}
+
+h1{
+  font-family:'teste';
+
+}

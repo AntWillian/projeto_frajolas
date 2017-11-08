@@ -1,0 +1,198 @@
+.legenda_ativa{
+  width: 100%;
+  height: 30px;
+  margin-top: -30px;
+    color:#f99c48;
+}
+
+.legenda_ativa a{
+  text-decoration: none;
+  color:#f99c48;
+
+}
+
+.legenda_ativa p{
+  font-size: 30px;
+  font-family: "Rockwell Condensed";
+  padding: 0px;
+  text-align: center;
+  color: #f99c48;
+}
+
+.titulo_form{
+width: 400px;
+height: 50px;
+margin:0px;
+text-align: center;
+}
+
+.titulo_form{
+  margin: auto;
+  padding: 0px;
+  font-size: 20px;
+}
+.tabela_usuarios{
+
+  width: 700px;
+  height: auto;
+  min-height: 200px;
+  background-color: red;
+  margin: auto;
+
+}
+.titulos{
+  width: 100%;
+  height: 30px;
+  background-color: blue;
+  margin-bottom: 5px;
+}
+
+.titulos ul{
+  padding: 0px;
+  list-style-type: none;
+  margin: auto;
+
+}
+
+.titulos ul li{
+  float: left;
+  width: 175px;
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+
+
+}
+
+.conteudos{
+  width: 100%;
+  height: 30px;
+  margin: auto;
+  padding-bottom: 20px;
+
+}
+
+.conteudos ul{
+  padding: 0px;
+  list-style-type: none;
+  margin: 0px;
+
+}
+
+.cor{
+  background-color: #C0C0C0;
+}
+
+.conteudos ul li{
+  float: left;
+  width: 175px;
+  text-align: center;
+    font-size: 20px;
+
+}
+
+.modo{
+  width: 30px;
+  height: 30px;
+}
+
+.botoes{
+  width: 130px;
+  height: 60px;
+  margin: auto;
+}
+
+
+
+
+.botao_novo{
+  width: 140px;
+  height: 50px;
+
+  font-family: arial;
+  font-size:14px;
+  font-weight:700px;
+  text-transform: uppercase;
+  border:none;
+  padding:10px;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;
+  background:#a50606;
+  color:#fff;
+  box-shadow:0 5px 0 #84090f;
+
+
+
+}
+
+.botao_novo:hover{
+  background:#8c0404;
+  box-shadow:0 5px 0 #770000;
+}
+
+.botao_novo:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
+}
+
+/*######################## CADASTRO FORM ################################*/
+.formulario_de_cadastro{
+  width: 1000px;
+  height: auto;
+  min-height: 530px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.dadosUser{
+  width: 960px;
+  height: 90px;
+  margin: auto;
+}
+
+.enviarfoto{
+  margin-left: 30px;
+}
+
+.linha{
+  width: 960px;
+  height: 50px;
+  margin: auto;
+  padding-top: 15px;
+
+}
+
+fieldset{
+  margin-bottom: 30px;
+}
+
+.dadosUser fieldset{
+  width: 930px;
+  height: 70px;
+
+}
+
+.entrada_de_dados{
+  width: 200px;
+  height: 20px;
+  float: left;
+  margin-left: 30px;
+}
+
+.dados_entrada{
+  width: 200px;
+  height: 20px;
+  border-radius: 20px;
+  text-align: center;
+
+}
+
+.entrada_de_dados3{
+    width: 100px;
+    height: 40px;
+    float: left;
+    margin-left: 50px;
+
+}

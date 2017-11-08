@@ -1,0 +1,244 @@
+<div class="conteudo_principal_curiosidades">
+
+
+    <div class="imagen_titulo">
+      <img src="images/vivasenior_posts_1031_C_site.png" alt="">
+
+    </div>
+
+    <div class="Titulo_principal_cabeçalho"> <!--########################## Div flutuante com hover ########################################-->
+
+
+      <h3 class="Titulo_principal_anos" >Anos 80<h3>
+
+    </div>
+
+    <div class="abrir_menu" onclick="ShowMenu()">
+
+    </div>
+
+    <div class="detalhes_anos" >
+      <p>30 sucessos internacionais dos anos 80 para começar bem a semana 03/07/201710h00 Comunicar erro 10 do BOL Reprodução/Voice A década de 80 foi uma das mais ricas musicalmente, com letras de um significado profundo </p>
+      <article class="product_images" data-id="0">
+
+        <div id="foto_principal">
+          <img class="img1" src='images/4.jpg' alt="test">
+        </div>
+
+      <div class="navegacao">
+
+        <div class="navegar1">
+          <div class="navegar2">
+              <a href="#" class="prev" title="Anterior"><img src="images/anterior.png" alt=""></a>
+          </div>
+        </div>
+
+        <div class="conteudo_thumbs">
+          <div class="content"><!--Começo carrosel-->
+              <div class="carrossel">
+                  <ul class="thumbs">
+                      <li>
+                         <img class="img1" class="active" src='images/4.jpg' alt="test">
+                      </li>
+
+                      <li>
+                          <img class="img1"  src='images/1.1.jpg' alt="test">
+                      </li>
+
+                      <li>
+                        <img class="img1" src='images/1.2.jpg' alt="test">
+                      </li>
+
+                      <li>
+                        <img class="img1" src='images/1.3.jpg' alt="test">
+
+                      </li>
+
+                      <li>
+                        <img class="img1" src='images/1.3.jpg' alt="test">
+
+                      </li>
+                      <li>
+                        <img class="img1" src='images/1.3.jpg' alt="test">
+
+                      </li>
+
+                      <li>
+                        <img class="img1" src='images/1.3.jpg' alt="test">
+
+                      </li>
+
+                      <li>
+                        <img class="img1" src='images/1.3.jpg' alt="test">
+
+                      </li>
+
+                      <li>
+                        <img class="img1" src='images/1.3.jpg' alt="test">
+
+                      </li>
+
+                      <li>
+                        <img class="img1" src='images/1.3.jpg' alt="test">
+
+                      </li>
+
+                      <li>
+                        <img class="img1" src='images/1.3.jpg' alt="test">
+
+                      </li>
+
+                      <li>
+                        <img class="img1" src='images/1.3.jpg' alt="test">
+
+                      </li>
+
+                      <li>
+                        <img class="img1" src='images/1.3.jpg' alt="test">
+
+                      </li>
+
+                      <li>
+                        <img class="img1" src='images/1.3.jpg' alt="test">
+
+                      </li>
+
+                      <li>
+                        <img class="img1" src='images/1.3.jpg' alt="test">
+
+                      </li>
+
+                      <li>
+                        <img class="img1" src='images/1.3.jpg' alt="test">
+
+                      </li>
+
+                  </ul>
+              </div>
+
+          </div><!--Fim carrossel-->
+
+           <!--#############################################################-->
+           <!--JS-->
+           <script src="js/jquery.min.js"></script>
+           <script type="text/javascript" src="js/jcarousellite.js"></script>
+           <script type="text/javascript" src="js/carrossel2.js"></script>
+
+           <!--#############################################################-->
+        </div>
+
+        <div class="navegar1">
+          <div class="navegar2">
+             <a href="#" class="next" title="Próximo"> <img src="images/proximo.png" alt=""></a>
+          </div>
+        </div>
+
+      </div>
+
+
+      </article>
+    </div>
+
+    <div class="lista_de_curiosidades">
+      <div class="titulo_anos">
+          <h2>Curiosidades anos 80</h2>
+      </div>
+      <div class="detalhes_curiosidades"><!--TABELA CURIOSIDADES-->
+          <div class="curiosidade">
+              <p>Musica</p>
+          </div>
+
+          <div class="detalhes_curiosidade">
+              <ul>
+                <li><a href="#">"Thriller", Michael Jackson</a></li>
+                <li><a href="#">"The Final Countdown", Europe</a></li>
+                <li><a href="#">"Jump", Van Halen</a></li>
+                <li><a href="#">"Fade to Black", Metallica</a></li>
+              </ul>
+          </div>
+
+      </div><!--FIM sTABELA CURIOSIDADES-->
+
+      <div class="detalhes_curiosidades"><!--TABELA CURIOSIDADES-->
+          <div class="curiosidade">
+              <p>Cultura</p>
+          </div>
+
+          <div class="detalhes_curiosidade">
+              <ul>
+                <li><a href="#">Oscar Niemeyer cria o Memorial JK</a></li>
+                <li><a href="#">fundação do Museu Afro-brasileiro em Salvador (Bahia)</a></li>
+                <li><a href="#"> Umberto Eco lança o livro O nome da rosa</a></li>
+
+              </ul>
+          </div>
+
+      </div><!--FIM sTABELA CURIOSIDADES-->
+
+      <div class="detalhes_curiosidades"><!--TABELA CURIOSIDADES-->
+          <div class="curiosidade">
+              <p>Cinema</p>
+          </div>
+
+          <div class="detalhes_curiosidade">
+              <ul>
+                <li><a href="#">lançamento do filme Star Wars: O Império Contra-Ataca (Episódio V)</a></li>
+                <li><a href="#"> Glauber Rocha lança o filme Idade da Terra</a></li>
+                <li><a href="#"> Stanley Kubrick lança o sucesso do terror "O Iluminado"</a></li>
+                <li><a href="#"> Estréia nos cinemas o filme "E.T, o Extra Terrestre"</a></li>
+
+
+              </ul>
+          </div>
+
+      </div><!--FIM sTABELA CURIOSIDADES-->
+
+      <div class="detalhes_curiosidades"><!--TABELA CURIOSIDADES-->
+          <div class="curiosidade">
+              <p>Televisao</p>
+          </div>
+
+          <div class="detalhes_curiosidade">
+              <ul>
+                <li><a href="#">lançado o canal de notícias norte-americano CNN</a></li>
+                <li><a href="#"> Sai do ar a Rede Tupi de Televisão</a></li>
+                <li><a href="#">Entra no ar o SBT (Sistema Brasileiro de Televisão)</a></li>
+                <li><a href="#"> Exibio, no Brasil, pelo SBT, o primeiro episódio da série Chaves</a></li>
+                <li><a href="#">Vai ao ar, na rede Globo, a 1ª edição do Criança Esperança</a></li>
+
+
+              </ul>
+          </div>
+
+      </div><!--FIM sTABELA CURIOSIDADES-->
+
+      <div class="detalhes_curiosidades"><!--TABELA CURIOSIDADES-->
+          <div class="curiosidade">
+              <p>Politica</p>
+          </div>
+
+          <div class="detalhes_curiosidade">
+              <ul>
+                <li><a href="#"> Fundação do PT (Partido dos Trabalhadores) em São Paulo</a></li>
+                <li><a href="#"> Rondônia deixa de ser território e passa ser um estado da federação</a></li>
+                <li><a href="#"> Ronald Reagan (Partido Republicano) torna-se presidente dos Estados Unidos</a></li>
+                <li><a href="#">Movimento Diretas Já (movimento que pedia a volta das eleições diretas para presidente do Brasil)</a></li>
+                <li><a href="#">Fim da Ditadura Militar no Brasil</a></li>
+                <li><a href="#"> Amapá e Roraima deixam de ser territórios e passam a ser estados brasileiros</a></li>
+                <li><a href="#"> promulgada a Constituição Brasileira (em vigor até os dias de hoje)</a></li>
+                <li><a href="#"> Criado o estado de Tocantins</a></li>
+
+
+
+
+
+              </ul>
+          </div>
+
+      </div><!--FIM sTABELA CURIOSIDADES-->
+
+
+
+    </div>
+</div>
+<!--############################## FIM DIV CURIOSIDADES ##################################################-->

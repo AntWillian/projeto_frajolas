@@ -1,0 +1,200 @@
+#principal_promocoes{
+      width: 1200px;
+      min-height: 1000px;
+      height: auto;
+      margin: auto;
+      overflow: hidden;
+}
+
+
+#conteudo_principal_promocoes{
+  width: 1200px;
+  min-height: 1150px;
+  height: auto;
+  overflow: hidden;
+  padding-top:5px;
+}
+
+#titulo_principal_promocoes{
+  width: 950px;
+  min-height: 100px;
+  font-family: Rockwell Condensed;
+}
+
+#titulo_principal_promocoes h1{
+  color: #000;
+  text-align: center;
+  font-size: 70px;
+  width:1200px;
+  margin: auto;
+  border-bottom: 2px dashed #000;
+
+}
+
+#produtos_em_promocoes{
+  width: 1200px;
+  min-height: 200px;
+  height: auto;
+  background-color: green;
+}
+
+.sesao_de_produto_em_promocoes{
+  width: 1000px;
+  min-height:310px;
+  height: auto;
+  margin: auto;
+
+
+}
+
+
+#conteudos_promocoes{
+  width: 1200px;
+  min-height: 1100px;
+  height: auto;
+  background-color: #fff;
+  overflow:hidden;
+
+}
+
+.apresetacao_produto_em_promocoes{
+    width:290px;
+    height: 300px;
+    margin-left: 15px;
+    border-width: 1px;
+    border-color: #0055ff;
+    border-style: double;
+    float: left;
+
+  }
+
+.valor_preco_antigo{
+    color: #404040;
+  display: inline-block;
+  font-family: "NeoSans";
+  font-size: 15px;
+  padding: 0px;
+}
+
+.valor_preco_antigo strong{
+  text-decoration: line-through;
+}
+
+.preco_promocao{
+  margin-top: 5px;
+  width:150px;
+  height: 40px;
+  margin-left: 50px;
+}
+
+
+
+.titulo_promocoes{
+    width: 1200px;
+    height: 50px;
+    background: black;
+
+
+}
+
+#titulo_secundario_promocoes{
+  width: 950px;
+  min-height: 100px;
+  font-family: "Rockwell Condensed";
+  margin-bottom: 100px;
+}
+
+#titulo_secundario_promocoes h2{
+  color: #000;
+  text-align: center;
+  font-size: 70px;
+  width:1200px;
+  margin: auto;
+  border-bottom: 2px dashed #000;
+
+}
+
+.outras_promocoes{
+  width: 1200px;
+  margin: auto;
+  min-height: 350px;
+  height: auto;
+  overflow: hidden;
+
+
+}
+
+.detalhes_outras_promocoes{
+  width: 1150px;
+  margin: auto;
+  min-height: 300px;
+  height: auto;
+
+
+
+}
+
+.titulo_outras_promocoes{
+  width: 1200px;
+  height: 30px;
+  background-color: #fff;
+}
+
+.titulo_da_promocoes{
+
+  width: auto;
+  height: 40px;
+  border-bottom: 2px dashed #000;
+
+}
+
+.titulo_da_promocoes p{
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  width:100%;
+  margin: auto;
+}
+
+
+
+.imagem_promocoes{
+  width: auto;
+  height: 400px;
+  padding: 10px;
+  border-width: 1px;
+  border-color: #0055ff;
+  border-style: double;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px 0px 10px 0px;
+
+}
+
+.imagem_promocoes img{
+  width: 100%;
+  height: 400px;
+  border-radius: 10px 0px 10px 0px;
+
+}
+
+.detalhes_promocoes{
+  width: 900px;
+  min-height: 50px;
+  height:auto;
+  overflow: hidden;
+  border-width: 1px;
+  border-color: #0055ff;
+  border-style: double;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 10px 0px 10px 0px;
+  margin-bottom: 50px;
+}
+
+.detalhes_promocoes p{
+font-size: 20px;
+margin: auto;
+padding: 10px;
+}

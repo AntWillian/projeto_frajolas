@@ -1,0 +1,648 @@
+.conteudo_principal_curiosidade{
+  width: 100%;
+  height: auto;
+  min-height: 1300px;
+  overflow: scroll;;
+  background-color: #fff;
+}
+
+.legenda_ativa{
+  width: 100%;
+  height: 30px;
+  margin-top: -30px;
+    color:#f99c48;
+}
+
+
+.navAdmin{
+  width: 1100px;
+  height: 200px;
+  background-color: blue;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navAdmin_item{
+  width: 230px;
+  height: 100%;
+  background-color: red;
+  margin-left: 20px;
+  float: left;
+}
+
+.navAdmin_item_imagen{
+  width: 100%;
+  height: 150px;
+  background-color: green;
+
+}
+
+.navAdmin_item_imagen img{
+  width: 170px;
+  height: 100%;
+  margin-left: 25px;
+}
+
+.navAdmin_item_titulo{
+  width: 100%;
+  height: 50px;
+  background-color: pink;
+}
+
+
+.navAdmin_item_titulo p{
+  font-weight: 300;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.navAdmin_item_titulo  a{
+  font-weight: 300;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #000;
+}
+
+.navAdmin_item_titulo  a:hover{
+  color: red;
+}
+
+/*   modal */
+
+.modalContainer{
+  width: 100%;
+  height: 100%;
+  display: none;
+  /*background: rgba(0, 0, 0, 0.5);*/
+  background: tranparent;
+  position: fixed;
+
+}
+
+.modal{
+  width: 700px;
+  height: auto;
+  min-height: 500px;
+  margin: auto;
+  overflow: hidden;
+  background-color: #d6cfcf;
+  border-radius: 20px;
+}
+
+
+
+.fechar p:hover{
+  color:#000;
+
+}
+
+.dados{
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+}
+/*   MODAL CULTURA*/
+.dadosCultura{
+  width: 700px;
+  height: 500px;
+  overflow: auto;
+  margin-top: 30px;
+}
+
+.dadosGerais{
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  overflow: hidden;
+
+}
+
+.titulo1{
+  width: 100%;
+  height: 50px;
+}
+
+.titulo{
+  width: 650px;
+  height: 50px;
+  float: left;
+}
+.titulo h1{
+  margin: auto;
+  padding: 0px;
+  text-align: center;
+
+}
+
+.fechar{
+  width: 20px;
+  height: 20px;
+float: left;
+
+}
+
+.fechar a{
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fechar p{
+  color: red;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: cursive;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.imagenDados{
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-left: 20px;
+}
+
+.imagenDados img{
+  width: 300px;
+  height: 300px;
+
+
+}
+
+/*    produto  */
+.imagenDados_produto{
+  margin-top: 20px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-left: 20px;
+}
+
+.imagenDados_produto img{
+  width: 100px;
+  height: 100px;
+}
+
+.img_produto{
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+/*Fim Produto*/
+
+.dados1{
+  width: 300px;
+  height: auto;
+  min-height: 10px;
+  overflow: hidden;
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+
+}
+
+.dados1 p{
+  width: 100%;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 0px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.dados2{
+  width: auto;
+  height: auto;
+  min-height: 10px;
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 50px;
+
+}
+
+.dados2 p{
+  width: 100%;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 0px;
+  margin: auto;
+  text-align: center;
+
+}
+/* menu */
+.legenda_ativa a{
+  text-decoration: none;
+  color:#f99c48;
+
+}
+
+.legenda_ativa p{
+  font-size: 30px;
+  font-family: "Rockwell Condensed";
+  padding: 0px;
+  text-align: center;
+  color: #f99c48;
+}
+
+
+.conteudo_item{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color:green;
+  margin-left: 30px;
+    margin-top: 50px;
+  float: left;
+}
+
+
+.conteudo_item img{
+
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+
+}
+.titulo_item {
+  width: 300px;
+
+}
+.titulo_item p{
+  font-weight: 300;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.titulo_item  a{
+  font-weight: 300;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #000;
+}
+
+.titulo_item  a:hover{
+  color: red;
+}
+
+
+
+/*######################## tabela curiosidade ############################*/
+.titulo_tabela{
+  width: 100%;
+  background-color: red;
+}
+
+.titulo_tabela h1{
+  font-weight: 400;
+  color: #fff;
+  padding: 0px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.tabela_curiosidade{
+  width: 350px;
+  height: auto;
+  min-height: 100px;
+  background-color: red;
+  margin-top: 10px;
+  float: left;
+}
+
+.titulos ul{
+    width: 100%;
+    height: 20px;
+    height: 30px;
+
+    text-align: center;
+    list-style: none;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+.titulos ul li{
+    width: 100px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+}
+
+.titulos ul li a{
+  text-decoration: none;
+}
+
+/*   NOVA TABELA */
+
+.cor1{
+  background-color: #6b7072;
+}
+
+.cor2{
+  background-color: #8b8d8e;
+}
+
+.tabela_principal{
+  width: 700px;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 140px;
+}
+
+/* tabela de produto */
+.tabela_principal_produto{
+  width: 1000px;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 140px;
+}
+
+/* fim tabela produto*/
+
+.conteudo_tabela_titulo{
+  width: 100%;
+  height: 30px;
+}
+
+.tabela_conteudos{
+  width: 100%;
+  height: 250px;
+  overflow: auto;
+  margin: auto;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.conteudo_tabela_titulo ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+
+}
+
+.conteudo_tabela_titulo ul li{
+  float: left;
+  margin-left: 80px;
+  font-size: 23px;
+  width: 120px;
+  height: 50px;
+}
+
+.conteudos_tabela{
+  width: 100%;
+  min-height: 50px;
+  height: auto;
+  overflow: auto;
+  text-align: center;
+  text-align: center;
+
+}
+
+.conteudos_tabela ul{
+list-style: none;
+ padding: 0px;
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+
+}
+
+.conteudos_tabela ul li{
+  float: left;
+
+  font-size: 23px;
+  width: 220px;
+  margin:0px;
+  padding: 0px;
+  padding-top: 5px;
+}
+
+.conteudos_tabela ul li a{
+    text-decoration: none;
+}
+
+.conteudos_tabela img{
+   height: 25px;
+   height: 25px;
+}
+
+/*      cabecalho    */
+
+.conteudos_tabela_cabecalho{
+  width: 100%;
+  min-height: 50px;
+  height: auto;
+  overflow: auto;
+  text-align: center;
+  text-align: center;
+
+}
+
+.conteudos_tabela_cabecalho ul{
+list-style: none;
+ padding: 0px;
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+
+}
+
+.conteudos_tabela_cabecalho ul li{
+  float: left;
+
+  font-size: 23px;
+  width: 190px;
+  margin:0px;
+  padding: 0px;
+  padding-top: 5px;
+}
+
+.status{
+  width: 50px;
+}
+
+status{
+  width: 50px;
+}
+
+.conteudos_tabela_cabecalho ul li a{
+    text-decoration: none;
+}
+
+
+
+.conteudos_tabela_cabecalho img{
+   height: 25px;
+   height: 25px;
+}
+
+.conteudo_tabela_titulo_cabecalho{
+  width: 100%;
+  height: 30px;
+}
+
+
+.conteudo_tabela_titulo_cabecalho ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+
+}
+
+.conteudo_tabela_titulo_cabecalho ul li{
+  float: left;
+  font-size: 23px;
+  width: 170px;
+  height: 50px;
+}
+/*#########################*/
+.conteudos{
+  width: 100%;
+  min-height: 120px;
+
+  height: auto;
+}
+.conteudos ul li img{
+  width: 30px;
+  height: 30px;
+
+
+}
+
+.voltar{
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.voltar a{
+  text-decoration: none;
+}
+
+.voltar a img{
+  width: 100%;
+  height: 100%;
+}
+
+.botoes{
+  width: 130px;
+  height: 60px;
+  margin: auto;
+  float: left;
+}
+
+.btnativar{
+    background-image: url('../imagens/ligar.png');
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 40px;
+    margin: auto;
+
+}
+
+.btnDesligar{
+  background-image: url('../imagens/desligar.png');
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 40px;
+  margin: auto;
+}
+
+
+
+.botao_novo{
+  width: 140px;
+  height: 30px;
+
+  font-family: arial;
+  font-size:14px;
+  font-weight:700px;
+  text-transform: uppercase;
+  border:none;
+  padding:10px;
+  cursor: pointer;
+  display:inline-block;
+  text-decoration: none;
+  background:#a50606;
+  color:#fff;
+  box-shadow:0 5px 0 #84090f;
+
+
+
+}
+
+.botao_novo:hover{
+  background:#8c0404;
+  box-shadow:0 5px 0 #770000;
+}
+
+.botao_novo:active{
+  position:relative;
+  top:5px;
+  box-shadow:none;
+}
+
+
+/*%%%%%%%%%%%%%%%%%%%%%%%% CADASTROS %%%%%%%%%%%%%%%%%%%%*/
+.linha{
+  width: 350px;
+  margin-top: 20px;
+  float: left;
+  margin-left: 400px;
+
+}
+
+.imagenEdit{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.imagenEdit img{
+  width: 200px;
+  height: 200px;
+}
+
+.entrada_de_dados{
+  margin-bottom: 10px;
+}
+
+.dados_entrada{
+  width: 200px;
+  border: none;
+  border-bottom: 2px red solid;
+  text-align: center;
+}
+
+.dados_entrada:hover{
+
+  border: none;
+  border-bottom: 3px #84090f solid;
+
+
+}

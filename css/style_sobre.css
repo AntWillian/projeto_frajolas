@@ -1,0 +1,83 @@
+.principal_sobre{
+  width: 1200px;
+  height: auto;
+  min-height: 500px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+
+.conteudo_sobre{
+  width: 1180px;
+  height: auto;
+  min-height: 500px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.titulo_sobre{
+  width: 100%;
+  height: 100px;
+}
+
+.titulo_sobre h1{
+  font-size: 70px;
+  width: 100%;
+}
+
+.titulo_sobre h2{
+  font-size: 70px;
+  width: 100%;
+}
+
+.texto{
+  width: 100%;
+  height: auto;
+  min-height: 10px;
+  overflow: hidden;
+
+}
+
+.texto p{
+  font-size: 20px;
+  line-height: 1.3;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  text-align:left;
+}
+
+
+
+.imagen_ondeestamos{
+  width: 1200px;
+  height: 500px;;
+  position: absolute;
+}
+
+.mapa{
+  width: 100%;
+  height: 450px;
+  margin-bottom: 50px;
+}
+
+.mapa_visualizar{
+  width: 100%;
+  height: 450px;
+
+
+}
+
+.imagen_pizzaria{
+  width: 100%;
+  height: 800px;
+  background-color: blue;
+  float: left;
+  margin-top: -180px;
+
+}
+
+.imagen_pizzaria img{
+  width: 100%;
+  height: 800px;
+
+}
