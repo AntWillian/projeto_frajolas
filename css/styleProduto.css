@@ -1,0 +1,115 @@
+.imagenDados_produto{
+  width: 100%;
+  height: 100px;
+
+}
+
+
+.img_produto {
+      width: 150px;
+      height: 100px;
+      float: left;
+      margin-left: 10px;
+}
+
+.img_produto img{
+      width: 100%;
+      height: 100%;
+}
+
+/*MODAL*/
+
+.modal{
+    width: 700px;
+    height: 100%;
+    background-color:#6495ED;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.modalContainer{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    z-index: 9999;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+
+
+
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+.titulo1{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.titulo{
+  width: 100%;
+  height: 50px;
+}
+
+.titulo h1{
+  font-size: 60px;
+
+}
+@media screen and (max-width: 500px)  {
+
+  .titulo h1{
+    font-size: 30px;
+    width: 100%;
+
+  }
+
+  .imagenDados_produto{
+    width: 100%;
+    height: 100px;
+
+  }
+
+
+  .img_produto {
+        width: 100%;
+        height: 100px;
+        margin-left: 10px;
+  }
+
+  .img_produto img{
+        width: 100%;
+        height: 100%;
+  }
+
+  /*MODAL*/
+
+  .modal{
+      width: 100%;
+      height: 100%;
+      background-color:#6495ED;
+      margin: auto;
+      margin-top: 100px;
+  }
+
+  .modalContainer{
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.7);
+      position: fixed;
+      z-index: 9999;
+      margin: 0px;
+      padding: 0px;
+      display: none;
+  }
+
+
+
+
+
+  /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+}

@@ -12,8 +12,8 @@ Conexao_database();
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/style_sobre.css" type="text/css">
 
-    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="coin-slider.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+
   </head>
   <body>
     <form class="frmProjeto" action="home.php" method="post">

@@ -42,6 +42,8 @@ Conexao_database(); // chama a funcao para conectar no banco de dados
     <title>Fale Conosco</title>
     <link rel="stylesheet" href="css/style_faleConosco.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+
 
   </head>
   <body>

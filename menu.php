@@ -1,6 +1,7 @@
 <?php
-
+$login="";
 if(isset($_POST['btOk'])){
+  echo "string";
   $login =  $_POST['txtUsuario'];
   $senha =  $_POST['txtsenha'];
 
@@ -57,7 +58,9 @@ if(isset($_POST['btOk'])){
 
         </div>
 
-        <ul id="menuNav">
+        <!-- menu descktop -->
+
+        <ul class="menuNav">
 
           <li><a href="promocoes.php">
             <span class="menuItem_pequeno">Nossas</span>
@@ -71,17 +74,19 @@ if(isset($_POST['btOk'])){
             <span class="menuItem_pequeno">Nossos  </span>
             <span class="menuItem_grande">Ambientes</span>
           </a></li>
-          <li><a href="home.php">
+          <li><a href="index.php">
             <span class="menuItem_pequeno">Novas</span>
             <span class="menuItem_grande">Ofertas</span>
           </a></li>
 
         </ul>
-        <form class="frm_login" action="home.php" method="post">
+
+
+        <form class="frm_login" action="index.php" method="post">
           <div id="login">
 
             <div class="dados">
-              Usuario:  <br><input placeholder="Usuario" class="dados_entarda" type="text" name="txtUsuario" value="">
+              Usuario:  <br><input placeholder="Usuario" class="dados_entarda" type="text" name="txtUsuario" value="<?php echo $login ?>">
 
             </div>
 
@@ -101,5 +106,56 @@ if(isset($_POST['btOk'])){
         </form>
 
       </nav>
+
+
+      <!-- menu mobile -->
+
+      <nav class="menuMobile">
+        <div class="btn-menu" name="btn-menu"><img src="images/Menu-icon.png" alt="teste"></div>
+          <div class="mobile">
+            <a class="btn-close">X</a>
+            <ul >
+              <li><a href="promocoes.php">
+                <span class="menuItem_grande">Promoções</span>
+              </a></li>
+
+              <li><a href="pizzadomes.php">
+                <span class="menuItem_grande">Pizza do Mês</span>
+              </a></li>
+
+              <li><a href="ambientes.php">
+                <span class="menuItem_grande">Onde estamos</span>
+              </a></li>
+
+              <li><a href="index.php">
+                <span class="menuItem_grande">Ofertas</span>
+              </a></li>
+
+              <li><a href="sobre_nos.php">
+                Frajola's <sup>®</sup>
+              </a></li>
+
+              <li><a href="curiosidades60_70_80.php">Curiosidades</a></li>
+
+              <li><a href="fale_conosco.php">Fale Conosco</a></li>
+            </ul>
+
+            <script type="text/javascript">
+                $(".btn-menu").click(function () {
+                  $(".mobile").show();
+                  //alert('fdsfdsf');
+                });
+
+                $(".btn-close").click(function () {
+                  $(".mobile").hide();
+                });
+          </script>
+          <!-- <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> -->
+
+          </div>
+      </nav>
+
+
+
 
   </header>

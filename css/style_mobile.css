@@ -1,0 +1,218 @@
+/*############################## MENU MOBILE######################################*/
+
+.menuMobile{
+  display: block;
+}
+#conteudo_menu{
+  display: none;
+}
+#conteudo_menu_empresarial{
+  display: none;
+
+}
+
+#menu_principal{
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 500;
+  margin-bottom: -100px;
+}
+
+
+
+.mobile{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  left: 0px;
+  z-index: 1000;
+}
+
+.btn-menu{
+width: 40px;
+height: 100%;
+padding-top: auto;
+margin-left: 10px;
+text-align: center;
+color: #fff;
+margin-left: 5px;
+margin-bottom: 50px;
+
+}
+
+.mobile{
+  display: none;
+}
+
+
+
+.btn-menu img{
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+
+}
+
+.btn-close{
+font-size: 2em;
+color: #fff;
+float: right;
+cursor: pointer;
+margin-right: 5%;
+font-weight: 400;
+font-family: monospace;
+}
+
+.btn-close:hover{
+color: red;
+}
+
+.mobile ul{
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 0px;
+}
+
+.mobile li {
+  padding: 1.5%;
+}
+
+.mobile li a{
+  font-size: 2em;
+  color:#fff;
+  padding: 1.5% 3%;
+  text-decoration: none;
+
+}
+
+.mobile li a:hover{
+  border: 1px solid #fff;
+  color: #f99c48;
+}
+
+/*############################## Conteudo ######################################*/
+#principal{
+      width: 100%;
+      min-height: 1000px;
+      height: auto;
+      margin: auto;
+}
+
+#conteudo_principal_produtos{
+  width: 100%;
+  min-height: 600px;
+  height: auto;
+  margin-left:0px;
+  padding-top:5px;
+  overflow: hidden;
+}
+
+  #conteudo_principal{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+  }
+
+  #conteudos{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+  }
+
+  #menu_lateral{
+    display: none;
+  }
+
+
+  .coin-slider{
+    display: none;
+  }
+
+  #slider{
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+  }
+
+  .imagenMobile{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  #titulo_principal{
+    width: 100%;
+    min-height: 100px;
+    font-family: "Rockwell Condensed";
+  }
+
+#titulo_principal  h1{
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    margin: auto;
+    border-bottom: 2px dashed #000;
+
+  }
+
+  /*########################## Produtos ############################*/
+
+  #produtos{
+    width: 100%;
+    min-height:800px;
+    height: auto;
+
+
+
+  }
+
+  .sesao_de_produto{
+    width: 100%;
+    min-height:800px;
+    height: auto;
+    margin-left: 10%;
+  }
+
+  .apresetacao_produto{
+      width:290px;
+      height: 300px;
+
+      margin: auto;
+      border-width: 1px;
+      border-color: #0055ff;
+      border-style: double;
+      margin-bottom: 10px;
+      box-shadow: 5px 5px 5px 3px black;
+
+    }
+
+    /* ######################### Rodape ###########################*/
+
+    #rodape{
+      width: 100%;
+      min-height: 300px;
+      height: auto;
+      background-color: #370000;
+    }
+
+
+    #conteudo_principal_rodape{
+      display: none;
+    }
+
+    #logo_rodape{
+      display: none;
+    }
+
+    #conteudo_rodape{
+      width: 100%;
+      min-height: 200px;
+      height: auto;
+      background-color: #370000;
+
+    }

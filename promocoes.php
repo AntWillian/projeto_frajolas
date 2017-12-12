@@ -16,6 +16,7 @@ Conexao_database(); // chama a funcao para conectar no banco de dados
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/style_promocoes.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/stylecarrossel.css" />
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 
     <!--HTML5-->
          <!--<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -100,7 +101,7 @@ Conexao_database(); // chama a funcao para conectar no banco de dados
                              <ul>
                                <?php
 
-                                      $sql="select * from tbl_produto where produtoEmPromocao=1;";
+                                      $sql="select TRUNCATE((p.preco-(p.percentualDesconto*preco)/100),2) as desconto,p.* from tbl_produto as p where produtoEmPromocao=1;";
 
                                       $select=mysql_query($sql);
 
@@ -143,7 +144,7 @@ Conexao_database(); // chama a funcao para conectar no banco de dados
                                          </span>
 
                                            <span class="valor_preco">
-                                             Por: <strong><?php echo ("R$ ".$rs['valorProdutoEmPromocao']) ?></strong>
+                                             Por: <strong><?php echo ("R$ ".$rs['desconto']) ?></strong>
                                            </span>
                                        </div>
                                        <div class="botao_detalhes">

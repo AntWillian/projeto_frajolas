@@ -17,7 +17,7 @@ Conexao_database(); // chama a funcao para conectar no banco de dados
     <title>CURIOSIDADES</title>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/stylecuriosidades.css" type="text/css">
-    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript">
       $(function () {
         $('.thumbs img').click(function () {
